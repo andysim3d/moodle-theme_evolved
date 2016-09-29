@@ -230,6 +230,10 @@ $string['lginpass'] = 'password';
 $string['lginforgot'] = 'forgot ?';
 $string['lginlogin'] = 'Log In';
 
+//Signup button
+$string['signup'] = "Sign Up";
+
+
 //socialwall CSS labels
 $string['swlabelpost'] = 'Post CSS Label';
 $string['swlabelmessage'] = 'Message CSS Label';

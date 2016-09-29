@@ -37,8 +37,10 @@
 	   </div>
 		<input type="password" name="password" placeholder="<?php echo get_string('lginpass' , 'theme_evolved'); ?>" required>
         <a href="<?php echo new moodle_url('/login/forgot_password.php'); ?>" class="forgot_link"><?php echo get_string('lginforgot' , 'theme_evolved'); ?></a>
-		<button><?php echo get_string('lginlogin' , 'theme_evolved'); ?></button>
-		<a class="sign-up-button" role="button"><?php echo get_string('signup' , 'theme_evolved'); ?></a>
+		<div>
+			<button><?php echo get_string('lginlogin' , 'theme_evolved'); ?></button>
+			<a class="sign-up-button"><?php echo get_string('signup' , 'theme_evolved'); ?></a>
+		</div>
         </form>
     </div>
 </section>
